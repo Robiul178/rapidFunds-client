@@ -1,12 +1,15 @@
 
 // import Login from "../Login/Login";
-import SignUp from "../SignUp/SignUp";
+// import SignUp from "../SignUp/SignUp";
+
+import Agent from "../Dashboard/Agent/Agent";
 
 const Home = () => {
     return (
         <div>
             {/* <Login /> */}
-            <SignUp />
+            {/* <SignUp /> */}
+            <Agent />
         </div>
     );
 };
