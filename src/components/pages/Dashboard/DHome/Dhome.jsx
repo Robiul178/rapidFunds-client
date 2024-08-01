@@ -3,7 +3,7 @@ import Agent from "../Agent/Agent";
 import Users from "../User/Users";
 
 const Dhome = () => {
-    const userRole = 'Agent'
+    let userRole = 'User'
     return (
         <div>
             <section>
